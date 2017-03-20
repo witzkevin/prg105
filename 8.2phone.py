@@ -1,3 +1,4 @@
+# Setting my letters to numbers
 phone_letters = {'A': '2', 'B': '2', 'C': '2', 'D': '3', 'E': '3',
                  'F': '3', 'G': '4', 'H': '4', 'I': '4', 'J': '5',
                  'K': '5', 'L': '5', 'M': '6', 'N': '6', 'O': '6',
@@ -7,6 +8,7 @@ phone_letters = {'A': '2', 'B': '2', 'C': '2', 'D': '3', 'E': '3',
 
 
 def main():
+    # Setting up the string
     number = input("Enter an phone number in letter form: ")
     print("Your phone number in number form is: ")
     result = []
@@ -19,6 +21,7 @@ def main():
             result.append(value)
 
     for ch in result:
+        # Printing the letters as numbers
         print(ch, end=" ")
 
 
